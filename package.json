@@ -1,0 +1,29 @@
+{
+  "name": "test-coverage-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautam-msys/test-coverage-mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gautam-msys/test-coverage-mocha/issues"
+  },
+  "homepage": "https://github.com/gautam-msys/test-coverage-mocha#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
