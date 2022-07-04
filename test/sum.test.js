@@ -1,4 +1,4 @@
-const sum = require('../sum');
+const sum = require('../src/sum');
 const expect = require('chai').expect;
 
 describe('Testing the Cube Functions', function () {
